@@ -5,6 +5,7 @@ defaultConfig =
   docsExt: 'md'
   sourceDir: 'pages'
   destDir: 'contents'
+  docsDir: 'pages/docs'
   templatesDir: 'templates'
   defaultTemplate: 'default.html'
   partialsDir: 'shared'
