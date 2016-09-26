@@ -15,27 +15,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="sidebar" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-            <div class="search-wrapper">
-              {% include "_search-form.html" %}
-            </div>
-            {% include "_nav.html" %}
-          </div>
-        </div>
-
         <article class="col-md-9">
-          <div class="header-wrapper">
-            {% include "_breadcrumbs.html" %}
-          </div>
-          {% if dynamic and $switch_text %}
-            <div class="dynamic-switch well">
-              {% include "_dynamic-switch.html" %}
-            </div>
-          {% endif %}
           <section class="page-content">
             {% block "contents" %}
-              {{ contents|safe }}
             {% endblock %}
           </section>
         </article>

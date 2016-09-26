@@ -1,3 +1,8 @@
+---
+layout: docs.html
+title: The title
+---
+
 # Page2
 
 ## Heading

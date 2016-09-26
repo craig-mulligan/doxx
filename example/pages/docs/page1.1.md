@@ -1,6 +1,11 @@
-# Page2.1
+---
+layout: docs.html
+title: The title
+---
 
-> This is page 2.1, hello there!
+# Page1.1
+
+> This is page 1.1, hello there!
 
 ## Subheading 1
 
